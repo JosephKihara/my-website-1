@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - Tech Solutions Hub</title>
+</head>
+<body>
+
+<h1>About Us</h1>
+<p>
+We are a trusted ICT service provider offering repair, sales,
+and accessories with a focus on quality and affordability.
+</p>
+
+<a href="index.html">Go Back Home</a>
+
+</body>
+</html>
