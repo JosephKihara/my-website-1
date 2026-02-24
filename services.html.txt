@@ -66,4 +66,8 @@
 </footer>
 
 </body>
-</html>
+</html><div class="card">
+    <img src="images/laptop-repair.jpg" alt="Laptop Repair">
+    <h3>Laptop Repair</h3>
+    <p>Fix screens, keyboards, and system issues.</p>
+</div>
