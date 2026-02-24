@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About - Tech Solutions Hub</title>
+    <title>About Us - Tech Solutions Hub</title>
+    <style>
+        body { font-family: Arial; margin: 0; }
+        header, footer { background: #0a1f44; color: white; text-align: center; padding: 20px; }
+        nav { background: #111; padding: 12px; text-align: center; }
+        nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #00ccff; }
+        section { padding: 60px 20px; text-align: center; }
+        button { padding: 12px 20px; margin-top: 20px; border-radius: 6px; border: none; cursor: pointer; }
+        button:hover { background: #ddd; }
+    </style>
 </head>
 <body>
 
-<h1>About Us</h1>
-<p>
-We are a trusted ICT service provider offering repair, sales,
-and accessories with a focus on quality and affordability.
-</p>
+<header>
+    <h1>💻 Tech Solutions Hub</h1>
+    <p>Affordable, Reliable & Fast ICT Solutions</p>
+</header>
 
-<a href="index.html">Go Back Home</a>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <h2>About Us</h2>
+    <p>Tech Solutions Hub is a trusted ICT service provider based in Nairobi, Kenya.  
+       We specialize in laptop repair, computer sales, and ICT accessories.  
+       Our mission is to deliver fast, affordable, and high-quality services to every customer.</p>
+    <p>With years of experience, we guarantee professional service, reliable support, and expert advice for all your ICT needs.</p>
+    <button onclick="window.location.href='contact.html'">Contact Us</button>
+</section>
+
+<footer>
+    <p>© 2026 Tech Solutions Hub</p>
+</footer>
 
 </body>
 </html>
