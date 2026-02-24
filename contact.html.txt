@@ -1,1 +1,43 @@
-<p><b>Available 24/7 for Repairs & Support</b></p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Tech Solutions Hub</title>
+    <style>
+        body { font-family: Arial; margin: 0; text-align: center; }
+        header, footer { background: #0a1f44; color: white; padding: 20px; }
+        nav { background: #111; padding: 12px; }
+        nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #00ccff; }
+        section { padding: 60px 20px; }
+        .whatsapp { display: inline-block; background: green; color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-size: 20px; margin-top: 20px; }
+        .whatsapp:hover { background: darkgreen; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>💻 Tech Solutions Hub</h1>
+    <p>Affordable, Reliable & Fast ICT Solutions</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>📞 Phone/WhatsApp: 0797720912</p>
+    <p>📍 Nairobi, Revlon Professional Plaza, Kenya</p>
+    <p>Available 24/7 for repairs & support</p>
+    <a class="whatsapp" href="https://wa.me/254797720912?text=Hello%20I%20need%20ICT%20services" target="_blank">💬 WhatsApp Us</a>
+</section>
+
+<footer>
+    <p>© 2026 Tech Solutions Hub</p>
+</footer>
+
+</body>
+</html>

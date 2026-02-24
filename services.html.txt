@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services - Tech Solutions Hub</title>
+    <style>
+        body { font-family: Arial; margin: 0; }
+        header, footer { background: #0a1f44; color: white; text-align: center; padding: 20px; }
+        nav { background: #111; padding: 12px; text-align: center; }
+        nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #00ccff; }
+        section { padding: 60px 20px; text-align: center; }
+        .services { display: flex; flex-wrap: wrap; justify-content: center; }
+        .card { background: #f4f4f4; margin: 15px; padding: 20px; width: 250px; border-radius: 12px; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .card:hover { transform: scale(1.05); background: white; }
+        .card img { border-radius: 10px; margin-bottom: 10px; width: 100%; }
+        button { padding: 12px 20px; margin-top: 20px; border-radius: 6px; border: none; cursor: pointer; }
+        button:hover { background: #ddd; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>💻 Tech Solutions Hub</h1>
+    <p>Affordable, Reliable & Fast ICT Solutions</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Laptop Repair">
+            <h3>Laptop Repair</h3>
+            <p>Fix screens, keyboards, and system issues.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Computer Sales">
+            <h3>Computer Sales</h3>
+            <p>Quality laptops and desktops at great prices.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Accessories">
+            <h3>Accessories</h3>
+            <p>SSDs, RAM, chargers, and more.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Software Install">
+            <h3>Software Install</h3>
+            <p>Windows, drivers, and essential apps.</p>
+        </div>
+    </div>
+    <button onclick="window.location.href='contact.html'">Get In Touch</button>
+</section>
+
+<footer>
+    <p>© 2026 Tech Solutions Hub</p>
+</footer>
+
+</body>
+</html>
